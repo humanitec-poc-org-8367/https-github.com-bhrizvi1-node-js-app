@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "bilal-nodejs-app1"
+  annotations:
+    "humanitec.com/orgId": "htc-demo-09"
+    "humanitec.com/appId": "bilal-nodejs-app1"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
